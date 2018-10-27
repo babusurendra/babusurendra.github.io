@@ -1,0 +1,167 @@
+/* Flex box */
+/* .flex-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap : nowrap;
+  justify-content :space-between;
+  align-items: stretch;
+} */
+  /* Navbar styles*/
+  .navbar-nav{
+      margin-left: 900px;
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  @media (min-width: 768px) {
+    .navbar-nav.navbar-center {
+      position: absolute;
+      left: 50%;
+      transform: translatex(-50%);
+    }
+    .navbar-expand-lg .navbar-collapse{
+      background-color: darkcyan;
+    }
+    
+  }
+  .bg-light{
+    background-color: darkcyan !important;
+  }
+  
+
+  /*Carousel Stles*/
+  .carousel-indicators li {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #ffff99;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+}
+.carousel-indicators .active {
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+    background-color: cadetblue;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  background-color: darkcyan;
+}
+
+/*---------------------Section Heading  ---------*/
+ .section-heading {
+  margin-bottom: 40px;
+  margin-left: -555px;
+  margin-top: 40px;
+}
+@media(max-width: 500px){
+  .section-heading {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-left: -200px
+  }
+}
+
+.section-heading .title {
+  position: relative;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+}
+.section-heading .title:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100px;
+  background:darkcyan;
+}
+
+.section-heading.heading-margin-off {
+  margin-bottom: 0;
+}
+
+.section-heading.text-center .title:before {
+  left: 50%;
+  margin-left: -50px;
+}
+
+@media (max-width: 991px) {
+  .section-heading {
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .section-heading {
+    margin-bottom: 30px;
+  }
+}
+/* Body and Card styles*/
+.cardstyle{
+  margin-top:70px;
+}
+.bodytext-Style{
+      margin-top:40px;
+      margin-bottom: 30px;
+}
+
+/* Contact Form*/
+.section{
+   background-color: white;
+   padding-left: 10px;
+}
+/* footer styles*/
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section{
+  background-color: darkcyan;
+}
+
+footer .container{
+  padding-left: 265px;
+  margin-top:20px;
+}
+footer
+.footer-copyright a{
+  color: white;
+}
+/* Footer social media icons */
+@media(max-width:767px){
+  .fb-ic{
+    margin-right: 50px;
+  }
+  .tw-ic{
+    margin-right: 50px;
+  }
+  .gplus-ic{
+    margin-right: 50px;
+  }
+  .li-ic{
+    margin-right: 50px;
+  }
+}
+
+/*OurServices.html */
+.our-services-img{
+  border-style: none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  display: block;
+}
+.fet-container{
+  margin-left:150px;
+  margin-right:auto;
+}
+.fet-flex-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 100px;
+}
